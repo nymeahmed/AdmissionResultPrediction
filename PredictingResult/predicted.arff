@@ -1,0 +1,31 @@
+@relation Result_predicted
+
+@attribute Gender {Male,Female}
+@attribute JSC numeric
+@attribute SSC numeric
+@attribute HSC numeric
+@attribute 'prediction margin' numeric
+@attribute 'predicted Result' {Pass,Fail}
+@attribute Result {Pass,Fail}
+
+@data
+Male,4.9,4.7,4.8,1,Pass,?
+Male,4.6,4.8,5,1,Pass,?
+Male,4.7,5,4.6,-1,Fail,?
+Female,4.6,4.6,5,1,Pass,?
+Male,5,4.8,4.6,0.333333,Pass,?
+Male,4.5,4.6,4.65,-0.714286,Fail,?
+Female,4.8,4.9,4.9,1,Pass,?
+Female,4.6,5,4.8,1,Pass,?
+Female,4.4,4.7,5,1,Pass,?
+Female,5,4.4,4.5,-0.714286,Fail,?
+Male,4.6,4.8,5,1,Pass,?
+Male,4.7,4.6,4.9,1,Pass,?
+Female,4.9,5,4.7,1,Pass,?
+Female,4.8,4.9,5,1,Pass,?
+Male,4.65,4.5,4.6,-0.714286,Fail,?
+Female,4.9,4.65,5,1,Pass,?
+Female,4.6,5,4.7,1,Pass,?
+Female,5,4.7,4.8,1,Pass,?
+Male,4.8,5,4.6,0.333333,Pass,?
+Male,5,4.8,4.9,1,Pass,?

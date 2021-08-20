@@ -1,0 +1,29 @@
+@relation Result
+
+@attribute Gender {Male,Female}
+@attribute JSC numeric
+@attribute SSC numeric
+@attribute HSC numeric
+@attribute Result {Pass,Fail}
+
+@data
+Male	4.9	4.7	4.8	?
+Male	4.6	4.8	5	?
+Male	4.7	5	4.6	?
+Female	4.6	4.6	5	?
+Male	5	4.8	4.6	?
+Male	4.5	4.6	4.65	?
+Female	4.8	4.9	4.9	?
+Female	4.6	5	4.8	?
+Female	4.4	4.7	5	?
+Female	5	4.4	4.5	?
+Male	4.6	4.8	5	?
+Male	4.7	4.6	4.9	?
+Female	4.9	5	4.7	?
+Female	4.8	4.9	5	?
+Male	4.65	4.5	4.6	?
+Female	4.9	4.65	5	?
+Female	4.6	5	4.7	?
+Female	5	4.7	4.8	?
+Male	4.8	5	4.6	?
+Male	5	4.8	4.9	?
