@@ -1,4 +1,4 @@
-# PredictingUniversityAdmissionResult using Decision Tree classification technique.
+# PredictingUniversityAdmissionResult using Decision Tree classification technique
 
 Predicting university admission result (Pass or Fail) based on the GPA of JSC, SSC & HSC.
 
